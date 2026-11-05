@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:background="@drawable/bg_splash">
+ <LinearLayout android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" android:gravity="center" android:padding="32dp">
+   <FrameLayout android:id="@+id/splashMark" android:layout_width="112dp" android:layout_height="112dp" android:background="@drawable/bg_circle_dark" android:padding="23dp">
+     <ImageView android:layout_width="match_parent" android:layout_height="match_parent" android:src="@drawable/ic_focusflow_mark" android:contentDescription="FocusFlow logo"/>
+   </FrameLayout>
+   <TextView  android:layout_width="match_parent" android:layout_height="wrap_content" android:text="FocusFlow" android:textSize="36sp" android:textColor="#FFFFFF" android:fontFamily="sans-serif-medium" android:layout_marginTop="30dp"  android:gravity="center"  />
+   <TextView  android:layout_width="match_parent" android:layout_height="wrap_content" android:text="A I  ·  S T U D Y  I N T E L L I G E N C E" android:textSize="10sp" android:textColor="#9FAFE0" android:fontFamily="sans-serif-medium" android:layout_marginTop="9dp"  android:gravity="center"  />
+   <TextView  android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Plan better sessions. Understand your habits.
+Build a calmer study routine." android:textSize="14sp" android:textColor="#C6CEEB" android:fontFamily="sans-serif" android:layout_marginTop="22dp"  android:gravity="center"  />
+ </LinearLayout>
+ <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_gravity="bottom" android:gravity="center" android:orientation="vertical" android:layout_marginBottom="55dp">
+   <ProgressBar android:layout_width="32dp" android:layout_height="32dp" android:indeterminate="true" android:indeterminateTint="#70DCD0"/>
+   <TextView  android:layout_width="match_parent" android:layout_height="wrap_content" android:text="OFFLINE AI ENGINE  ·  v2.0" android:textSize="10sp" android:textColor="#96A8CB" android:fontFamily="sans-serif-medium" android:layout_marginTop="16dp"  android:gravity="center"  />
+ </LinearLayout>
+</FrameLayout>

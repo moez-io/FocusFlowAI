@@ -1,0 +1,36 @@
+{
+  "model_name": "FocusFlowAI Synthetic Focus Pattern Neural Network",
+  "runtime": "TensorFlow Lite / LiteRT Interpreter",
+  "architecture": "FLOAT32 FullyConnected(4->16, RELU) + FullyConnected(16->2) + SOFTMAX",
+  "model_file": "app/src/main/assets/focusflow.tflite",
+  "training_samples": 8000,
+  "synthetic_holdout_samples": 1600,
+  "synthetic_holdout_accuracy": 0.9456,
+  "limitation": "Synthetic pedagogical labels; no measured human performance ground truth; not a validated predictor.",
+  "input_normalization": [
+    "minutes/120",
+    "interruptions/15",
+    "break_minutes/25",
+    "energy/5"
+  ],
+  "input_shape": [
+    1,
+    4
+  ],
+  "output_shape": [
+    1,
+    2
+  ],
+  "output_classes": [
+    "needs adjustment",
+    "balanced pattern"
+  ],
+  "example_balanced_class_scores": {
+    "balanced_sample": 0.83324,
+    "distracted_sample": 0.01813,
+    "neutral_sample": 0.239
+  },
+  "model_size_bytes": 1744,
+  "training_seed": 20261105,
+  "display_temperature": 3.0
+}

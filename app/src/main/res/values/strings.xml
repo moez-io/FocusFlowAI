@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FocusFlow AI</string>
+    <string name="app_tagline">Study smarter. Stay present.</string>
+    <string name="model_ready">AI ENGINE READY • OFFLINE</string>
+    <string name="model_failed">MODEL NOT AVAILABLE</string>
+</resources>
