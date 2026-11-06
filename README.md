@@ -103,14 +103,4 @@ The model is educational and trained with generated examples; see [MODEL_CARD.md
 
 The project uses Android Gradle Plugin 8.7.3 and LiteRT 1.4.2. The APK will include native LiteRT code, so **16 KB compatibility must be inspected on the actual APK** and tested with a 16 KB emulator where available. Do not claim verification based on source metadata. Inspect **Build → Analyze APK → lib/** and check ELF LOAD and packaging alignment with the latest Android tooling.
 
-## Submission evidence
-
-Capture **real screenshots from your emulator or phone**. Suggested screenshots: splash, dashboard, filled analyzer, TFLite result, history with two actual results, running focus timer. See [docs/TEST_PLAN.md](docs/TEST_PLAN.md). No generated screenshots are provided as execution evidence.
-
-## Credit and references
-
-- Instructor-supplied reference: [NumberGuessingAppTflite](https://github.com/Uzair390-Del/NumberGuessingAppTflite). This is a separately built app and model, not a copy of the teacher's code.
-- [Google AI Edge LiteRT](https://ai.google.dev/edge/litert)
-- [Android 16 KB page-size support](https://developer.android.com/guide/practices/page-sizes)
-
 **Assignment context:** KICSIT / IST · Android Assignment No. 2 · Java + XML + TFLite demonstration.
